@@ -32,7 +32,64 @@ nav a:hover{
     color: #c78c19;
     text-decoration:underline;
 }
+/*css de contacto*/
+/*formulario*/
+.formulario{
+    margin: 40px 0px;
+    width: 940px;
+    margin: 0px auto;
+    
+}
+.formulario label,.formulario legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
 
+.inputp{
+    
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+
+}
+.cb{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.20);
+}
+
+/*tabla*/
+.tabla{
+    margin: 40px 40px;
+    width: 400px;
+    margin: 20px auto;
+}
+.tabla thead{
+    background: #555555;
+    color: aliceblue;
+    font-weight: bold;
+}
+.tabla td,th{
+    border:2px solid black; 
+    padding: 8px 15px;
+}
 /*css para el main*/
 
 .banner{
@@ -128,7 +185,7 @@ footer{
    nav{
     position: static;
    }
-   .caja ,.principal,.mapacont,.contdif,.video {
+   .caja ,.formulario,.principal,.mapacont,.contdif,.video,.tabla {
         width: auto;
    } 
    .lisdif,.imgdif{
